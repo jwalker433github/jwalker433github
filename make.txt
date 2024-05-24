@@ -1,0 +1,454 @@
+g++ -std=c++17 -Wall -Wextra -Werror -O2 -MMD -MP -c main.cpp -o main.o
+In file included from /usr/include/c++/11/bits/hashtable.h:35,
+                 from /usr/include/c++/11/unordered_map:46,
+                 from ObjectFactory.hpp:3,
+                 from FactoryManager.hpp:6,
+                 from main.cpp:4:
+/usr/include/c++/11/bits/hashtable_policy.h:38:1: error: expected unqualified-id before ‘namespace’
+   38 | namespace std _GLIBCXX_VISIBILITY(default)
+      | ^~~~~~~~~
+In file included from /usr/include/c++/11/bits/hashtable.h:36,
+                 from /usr/include/c++/11/unordered_map:46,
+                 from ObjectFactory.hpp:3,
+                 from FactoryManager.hpp:6,
+                 from main.cpp:4:
+/usr/include/c++/11/bits/enable_special_members.h:37:1: error: expected unqualified-id before ‘namespace’
+   37 | namespace std _GLIBCXX_VISIBILITY(default)
+      | ^~~~~~~~~
+In file included from /usr/include/c++/11/bits/hashtable.h:38,
+                 from /usr/include/c++/11/unordered_map:46,
+                 from ObjectFactory.hpp:3,
+                 from FactoryManager.hpp:6,
+                 from main.cpp:4:
+/usr/include/c++/11/bits/node_handle.h:43:1: error: expected unqualified-id before ‘namespace’
+   43 | namespace std _GLIBCXX_VISIBILITY(default)
+      | ^~~~~~~~~
+In file included from /usr/include/c++/11/unordered_map:46,
+                 from ObjectFactory.hpp:3,
+                 from FactoryManager.hpp:6,
+                 from main.cpp:4:
+/usr/include/c++/11/bits/hashtable.h:41:1: error: expected unqualified-id before ‘namespace’
+   41 | namespace std _GLIBCXX_VISIBILITY(default)
+      | ^~~~~~~~~
+In file included from /usr/include/c++/11/unordered_map:47,
+                 from ObjectFactory.hpp:3,
+                 from FactoryManager.hpp:6,
+                 from main.cpp:4:
+/usr/include/c++/11/bits/unordered_map.h:33:1: error: expected unqualified-id before ‘namespace’
+   33 | namespace std _GLIBCXX_VISIBILITY(default)
+      | ^~~~~~~~~
+In file included from /usr/include/c++/11/unordered_map:49,
+                 from ObjectFactory.hpp:3,
+                 from FactoryManager.hpp:6,
+                 from main.cpp:4:
+/usr/include/c++/11/bits/erase_if.h:39:1: error: expected unqualified-id before ‘namespace’
+   39 | namespace std
+      | ^~~~~~~~~
+In file included from ObjectFactory.hpp:3,
+                 from FactoryManager.hpp:6,
+                 from main.cpp:4:
+/usr/include/c++/11/unordered_map:56:1: error: expected unqualified-id before ‘namespace’
+   56 | namespace std _GLIBCXX_VISIBILITY(default)
+      | ^~~~~~~~~
+In file included from /usr/include/c++/11/functional:59,
+                 from ObjectFactory.hpp:5,
+                 from FactoryManager.hpp:6,
+                 from main.cpp:4:
+/usr/include/c++/11/bits/std_function.h:45:1: error: expected unqualified-id before ‘namespace’
+   45 | namespace std _GLIBCXX_VISIBILITY(default)
+      | ^~~~~~~~~
+In file included from /usr/include/c++/11/vector:67,
+                 from /usr/include/c++/11/functional:62,
+                 from ObjectFactory.hpp:5,
+                 from FactoryManager.hpp:6,
+                 from main.cpp:4:
+/usr/include/c++/11/bits/stl_vector.h:77:1: error: expected unqualified-id before ‘namespace’
+   77 | namespace std _GLIBCXX_VISIBILITY(default)
+      | ^~~~~~~~~
+In file included from /usr/include/c++/11/vector:68,
+                 from /usr/include/c++/11/functional:62,
+                 from ObjectFactory.hpp:5,
+                 from FactoryManager.hpp:6,
+                 from main.cpp:4:
+/usr/include/c++/11/bits/stl_bvector.h:64:1: error: expected unqualified-id before ‘namespace’
+   64 | namespace std _GLIBCXX_VISIBILITY(default)
+      | ^~~~~~~~~
+In file included from /usr/include/c++/11/vector:72,
+                 from /usr/include/c++/11/functional:62,
+                 from ObjectFactory.hpp:5,
+                 from FactoryManager.hpp:6,
+                 from main.cpp:4:
+/usr/include/c++/11/bits/vector.tcc:59:1: error: expected unqualified-id before ‘namespace’
+   59 | namespace std _GLIBCXX_VISIBILITY(default)
+      | ^~~~~~~~~
+/usr/include/c++/11/bits/vector.tcc:967:1: error: expected unqualified-id before ‘namespace’
+  967 | namespace std _GLIBCXX_VISIBILITY(default)
+      | ^~~~~~~~~
+In file included from /usr/include/c++/11/functional:62,
+                 from ObjectFactory.hpp:5,
+                 from FactoryManager.hpp:6,
+                 from main.cpp:4:
+/usr/include/c++/11/vector:80:1: error: expected unqualified-id before ‘namespace’
+   80 | namespace std _GLIBCXX_VISIBILITY(default)
+      | ^~~~~~~~~
+In file included from /usr/include/c++/11/bits/stl_algo.h:60,
+                 from /usr/include/c++/11/functional:65,
+                 from ObjectFactory.hpp:5,
+                 from FactoryManager.hpp:6,
+                 from main.cpp:4:
+/usr/include/c++/11/bits/algorithmfwd.h:42:1: error: expected unqualified-id before ‘namespace’
+   42 | namespace std _GLIBCXX_VISIBILITY(default)
+      | ^~~~~~~~~
+In file included from /usr/include/c++/11/bits/stl_algo.h:61,
+                 from /usr/include/c++/11/functional:65,
+                 from ObjectFactory.hpp:5,
+                 from FactoryManager.hpp:6,
+                 from main.cpp:4:
+/usr/include/c++/11/bits/stl_heap.h:62:1: error: expected unqualified-id before ‘namespace’
+   62 | namespace std _GLIBCXX_VISIBILITY(default)
+      | ^~~~~~~~~
+In file included from /usr/include/c++/11/bits/stl_algo.h:66,
+                 from /usr/include/c++/11/functional:65,
+                 from ObjectFactory.hpp:5,
+                 from FactoryManager.hpp:6,
+                 from main.cpp:4:
+/usr/include/c++/11/bits/uniform_int_dist.h:41:1: error: expected unqualified-id before ‘namespace’
+   41 | namespace std _GLIBCXX_VISIBILITY(default)
+      | ^~~~~~~~~
+In file included from /usr/include/c++/11/functional:65,
+                 from ObjectFactory.hpp:5,
+                 from FactoryManager.hpp:6,
+                 from main.cpp:4:
+/usr/include/c++/11/bits/stl_algo.h:71:1: error: expected unqualified-id before ‘namespace’
+   71 | namespace std _GLIBCXX_VISIBILITY(default)
+      | ^~~~~~~~~
+In file included from ObjectFactory.hpp:5,
+                 from FactoryManager.hpp:6,
+                 from main.cpp:4:
+/usr/include/c++/11/functional:74:1: error: expected unqualified-id before ‘namespace’
+   74 | namespace std _GLIBCXX_VISIBILITY(default)
+      | ^~~~~~~~~
+In file included from FactoryManager.hpp:6,
+                 from main.cpp:4:
+ObjectFactory.hpp:27:10: error: ‘unordered_map’ in namespace ‘std’ does not name a template type
+   27 |     std::unordered_map<std::string, std::function<std::shared_ptr<IObject>(const std::string&)>> m_factoryMap;
+      |          ^~~~~~~~~~~~~
+ObjectFactory.hpp:6:1: note: ‘std::unordered_map’ is defined in header ‘<unordered_map>’; did you forget to ‘#include <unordered_map>’?
+    5 | #include <functional>
+  +++ |+#include <unordered_map>
+    6 | #include <memory>
+In file included from FactoryManager.hpp:7,
+                 from main.cpp:4:
+ObjectDictionary.hpp:22:10: error: ‘unordered_map’ in namespace ‘std’ does not name a template type
+   22 |     std::unordered_map<std::string, std::shared_ptr<IObject>> m_objects;
+      |          ^~~~~~~~~~~~~
+ObjectDictionary.hpp:1:1: note: ‘std::unordered_map’ is defined in header ‘<unordered_map>’; did you forget to ‘#include <unordered_map>’?
+  +++ |+#include <unordered_map>
+    1 | #pragma once
+In file included from main.cpp:4:
+FactoryManager.hpp:9:31: error: invalid use of incomplete type ‘class IObject’
+    9 | class FactoryManager : public IObject {
+      |                               ^~~~~~~
+In file included from FactoryManager.hpp:5,
+                 from main.cpp:4:
+IObject.hpp:6:7: note: definition of ‘class IObject’ is not complete until the closing brace
+    6 | class IObject {
+      |       ^~~~~~~
+In file included from IEventProcessor.hpp:5,
+                 from IFsm.hpp:4,
+                 from main.cpp:6:
+IEvent.hpp:6:23: error: invalid use of incomplete type ‘class IObject’
+    6 | class IEvent : public IObject {
+      |                       ^~~~~~~
+In file included from FactoryManager.hpp:5,
+                 from main.cpp:4:
+IObject.hpp:6:7: note: definition of ‘class IObject’ is not complete until the closing brace
+    6 | class IObject {
+      |       ^~~~~~~
+In file included from IEventProcessor.hpp:5,
+                 from IFsm.hpp:4,
+                 from main.cpp:6:
+IEvent.hpp:15:18: error: ‘virtual bool IObject::IEvent::init()’ marked ‘override’, but does not override
+   15 |     virtual bool init() override;
+      |                  ^~~~
+IEvent.hpp:16:18: error: ‘virtual void IObject::IEvent::start()’ marked ‘override’, but does not override
+   16 |     virtual void start() override;
+      |                  ^~~~~
+IEvent.hpp:17:18: error: ‘virtual void IObject::IEvent::run()’ marked ‘override’, but does not override
+   17 |     virtual void run() override;
+      |                  ^~~
+IEvent.hpp:18:18: error: ‘virtual void IObject::IEvent::print()’ marked ‘override’, but does not override
+   18 |     virtual void print() override;
+      |                  ^~~~~
+In file included from IFsm.hpp:4,
+                 from main.cpp:6:
+IEventProcessor.hpp:7:32: error: invalid use of incomplete type ‘class IObject’
+    7 | class IEventProcessor : public IObject {
+      |                                ^~~~~~~
+In file included from FactoryManager.hpp:5,
+                 from main.cpp:4:
+IObject.hpp:6:7: note: definition of ‘class IObject’ is not complete until the closing brace
+    6 | class IObject {
+      |       ^~~~~~~
+In file included from IFsm.hpp:4,
+                 from main.cpp:6:
+IEventProcessor.hpp:15:18: error: ‘virtual bool IObject::IEventProcessor::init()’ marked ‘override’, but does not override
+   15 |     virtual bool init() override;
+      |                  ^~~~
+IEventProcessor.hpp:16:18: error: ‘virtual void IObject::IEventProcessor::start()’ marked ‘override’, but does not override
+   16 |     virtual void start() override;
+      |                  ^~~~~
+IEventProcessor.hpp:17:18: error: ‘virtual void IObject::IEventProcessor::run()’ marked ‘override’, but does not override
+   17 |     virtual void run() override;
+      |                  ^~~
+IEventProcessor.hpp:18:18: error: ‘virtual void IObject::IEventProcessor::print()’ marked ‘override’, but does not override
+   18 |     virtual void print() override;
+      |                  ^~~~~
+In file included from IFsm.hpp:5,
+                 from main.cpp:6:
+IState.hpp:11:23: error: invalid use of incomplete type ‘class IObject’
+   11 | class IState : public IObject {
+      |                       ^~~~~~~
+In file included from FactoryManager.hpp:5,
+                 from main.cpp:4:
+IObject.hpp:6:7: note: definition of ‘class IObject’ is not complete until the closing brace
+    6 | class IObject {
+      |       ^~~~~~~
+In file included from IFsm.hpp:5,
+                 from main.cpp:6:
+IState.hpp:22:18: error: ‘virtual bool IObject::IState::init()’ marked ‘override’, but does not override
+   22 |     virtual bool init() override;
+      |                  ^~~~
+IState.hpp:23:18: error: ‘virtual void IObject::IState::start()’ marked ‘override’, but does not override
+   23 |     virtual void start() override;
+      |                  ^~~~~
+IState.hpp:24:18: error: ‘virtual void IObject::IState::run()’ marked ‘override’, but does not override
+   24 |     virtual void run() override;
+      |                  ^~~
+IState.hpp:25:18: error: ‘virtual void IObject::IState::print()’ marked ‘override’, but does not override
+   25 |     virtual void print() override;
+      |                  ^~~~~
+In file included from /usr/include/c++/11/thread:43,
+                 from IThread.hpp:4,
+                 from main.cpp:9:
+/usr/include/c++/11/bits/std_thread.h:53:1: error: expected unqualified-id before ‘namespace’
+   53 | namespace std _GLIBCXX_VISIBILITY(default)
+      | ^~~~~~~~~
+In file included from /usr/include/c++/11/chrono:39,
+                 from /usr/include/c++/11/bits/this_thread_sleep.h:38,
+                 from /usr/include/c++/11/thread:44,
+                 from IThread.hpp:4,
+                 from main.cpp:9:
+/usr/include/c++/11/ratio:42:1: error: expected unqualified-id before ‘namespace’
+   42 | namespace std _GLIBCXX_VISIBILITY(default)
+      | ^~~~~~~~~
+In file included from /usr/include/c++/11/chrono:41,
+                 from /usr/include/c++/11/bits/this_thread_sleep.h:38,
+                 from /usr/include/c++/11/thread:44,
+                 from IThread.hpp:4,
+                 from main.cpp:9:
+/usr/include/c++/11/limits:158:1: error: expected unqualified-id before ‘namespace’
+  158 | namespace std _GLIBCXX_VISIBILITY(default)
+      | ^~~~~~~~~
+In file included from /usr/include/c++/11/chrono:42,
+                 from /usr/include/c++/11/bits/this_thread_sleep.h:38,
+                 from /usr/include/c++/11/thread:44,
+                 from IThread.hpp:4,
+                 from main.cpp:9:
+/usr/include/c++/11/ctime:58:1: error: expected unqualified-id before ‘namespace’
+   58 | namespace std
+      | ^~~~~~~~~
+/usr/include/c++/11/ctime:77:1: error: expected unqualified-id before ‘namespace’
+   77 | namespace std
+      | ^~~~~~~~~
+In file included from /usr/include/c++/11/chrono:43,
+                 from /usr/include/c++/11/bits/this_thread_sleep.h:38,
+                 from /usr/include/c++/11/thread:44,
+                 from IThread.hpp:4,
+                 from main.cpp:9:
+/usr/include/c++/11/bits/parse_numbers.h:42:1: error: expected unqualified-id before ‘namespace’
+   42 | namespace std _GLIBCXX_VISIBILITY(default)
+      | ^~~~~~~~~
+In file included from /usr/include/c++/11/bits/this_thread_sleep.h:38,
+                 from /usr/include/c++/11/thread:44,
+                 from IThread.hpp:4,
+                 from main.cpp:9:
+/usr/include/c++/11/chrono:49:1: error: expected unqualified-id before ‘namespace’
+   49 | namespace std _GLIBCXX_VISIBILITY(default)
+      | ^~~~~~~~~
+In file included from /usr/include/c++/11/thread:44,
+                 from IThread.hpp:4,
+                 from main.cpp:9:
+/usr/include/c++/11/bits/this_thread_sleep.h:45:1: error: expected unqualified-id before ‘namespace’
+   45 | namespace std _GLIBCXX_VISIBILITY(default)
+      | ^~~~~~~~~
+In file included from IThread.hpp:4,
+                 from main.cpp:9:
+/usr/include/c++/11/thread:46:1: error: expected unqualified-id before ‘namespace’
+   46 | namespace std _GLIBCXX_VISIBILITY(default)
+      | ^~~~~~~~~
+In file included from main.cpp:9:
+IThread.hpp:7:24: error: invalid use of incomplete type ‘class IObject’
+    7 | class IThread : public IObject {
+      |                        ^~~~~~~
+In file included from FactoryManager.hpp:5,
+                 from main.cpp:4:
+IObject.hpp:6:7: note: definition of ‘class IObject’ is not complete until the closing brace
+    6 | class IObject {
+      |       ^~~~~~~
+In file included from main.cpp:9:
+IThread.hpp:21:10: error: ‘thread’ in namespace ‘std’ does not name a type
+   21 |     std::thread m_thread;
+      |          ^~~~~~
+IThread.hpp:5:1: note: ‘std::thread’ is defined in header ‘<thread>’; did you forget to ‘#include <thread>’?
+    4 | #include <thread>
+  +++ |+#include <thread>
+    5 | #include "IObject.hpp"
+IThread.hpp:13:18: error: ‘virtual bool IObject::IThread::init()’ marked ‘override’, but does not override
+   13 |     virtual bool init() override;
+      |                  ^~~~
+IThread.hpp:14:18: error: ‘virtual void IObject::IThread::start()’ marked ‘override’, but does not override
+   14 |     virtual void start() override;
+      |                  ^~~~~
+IThread.hpp:15:18: error: ‘virtual void IObject::IThread::run()’ marked ‘override’, but does not override
+   15 |     virtual void run() override;
+      |                  ^~~
+IThread.hpp:16:18: error: ‘virtual void IObject::IThread::print()’ marked ‘override’, but does not override
+   16 |     virtual void print() override;
+      |                  ^~~~~
+In file included from /usr/include/c++/11/deque:67,
+                 from ITimerManager.hpp:6,
+                 from main.cpp:10:
+/usr/include/c++/11/bits/stl_deque.h:72:1: error: expected unqualified-id before ‘namespace’
+   72 | namespace std _GLIBCXX_VISIBILITY(default)
+      | ^~~~~~~~~
+In file included from /usr/include/c++/11/deque:69,
+                 from ITimerManager.hpp:6,
+                 from main.cpp:10:
+/usr/include/c++/11/bits/deque.tcc:61:1: error: expected unqualified-id before ‘namespace’
+   61 | namespace std _GLIBCXX_VISIBILITY(default)
+      | ^~~~~~~~~
+In file included from ITimerManager.hpp:6,
+                 from main.cpp:10:
+/usr/include/c++/11/deque:76:1: error: expected unqualified-id before ‘namespace’
+   76 | namespace std _GLIBCXX_VISIBILITY(default)
+      | ^~~~~~~~~
+In file included from ITimerManager.hpp:8,
+                 from main.cpp:10:
+MyTimer.hpp:5:24: error: invalid use of incomplete type ‘class IObject’
+    5 | class MyTimer : public IObject
+      |                        ^~~~~~~
+In file included from FactoryManager.hpp:5,
+                 from main.cpp:4:
+IObject.hpp:6:7: note: definition of ‘class IObject’ is not complete until the closing brace
+    6 | class IObject {
+      |       ^~~~~~~
+In file included from ITimerManager.hpp:8,
+                 from main.cpp:10:
+MyTimer.hpp:10:23: error: ‘std::function’ has not been declared
+   10 |      void setCallback(std::function<void()> cb);
+      |                       ^~~
+MyTimer.hpp:10:36: error: expected ‘,’ or ‘...’ before ‘<’ token
+   10 |      void setCallback(std::function<void()> cb);
+      |                                    ^
+MyTimer.hpp:27:11: error: ‘function’ in namespace ‘std’ does not name a template type
+   27 |      std::function<void()> callback;
+      |           ^~~~~~~~
+MyTimer.hpp:1:1: note: ‘std::function’ is defined in header ‘<functional>’; did you forget to ‘#include <functional>’?
+  +++ |+#include <functional>
+    1 | #pragma once
+MyTimer.hpp:20:11: error: ‘bool IObject::MyTimer::init()’ marked ‘override’, but does not override
+   20 |      bool init() override;
+      |           ^~~~
+MyTimer.hpp:21:11: error: ‘void IObject::MyTimer::start()’ marked ‘override’, but does not override
+   21 |      void start() override;
+      |           ^~~~~
+MyTimer.hpp:23:11: error: ‘void IObject::MyTimer::print()’ marked ‘override’, but does not override
+   23 |      void print() override;
+      |           ^~~~~
+In file included from main.cpp:10:
+ITimerManager.hpp:10:30: error: invalid use of incomplete type ‘class IObject’
+   10 | class ITimerManager : public IObject {
+      |                              ^~~~~~~
+In file included from FactoryManager.hpp:5,
+                 from main.cpp:4:
+IObject.hpp:6:7: note: definition of ‘class IObject’ is not complete until the closing brace
+    6 | class IObject {
+      |       ^~~~~~~
+In file included from main.cpp:10:
+ITimerManager.hpp:55:21: error: ‘deque’ is not a member of ‘std’
+   55 |     std::array<std::deque<std::shared_ptr<MyTimer>>, QueueSize> m_queues;
+      |                     ^~~~~
+ITimerManager.hpp:9:1: note: ‘std::deque’ is defined in header ‘<deque>’; did you forget to ‘#include <deque>’?
+    8 | #include "MyTimer.hpp"
+  +++ |+#include <deque>
+    9 | 
+ITimerManager.hpp:55:50: error: wrong number of template arguments (1, should be 2)
+   55 |     std::array<std::deque<std::shared_ptr<MyTimer>>, QueueSize> m_queues;
+      |                                                  ^~
+In file included from /usr/include/c++/11/tuple:39,
+                 from /usr/include/c++/11/bits/unique_ptr.h:37,
+                 from /usr/include/c++/11/memory:76,
+                 from main.cpp:3:
+/usr/include/c++/11/array:95:12: note: provided for ‘template<class _Tp, long unsigned int _Nm> struct std::array’
+   95 |     struct array
+      |            ^~~~~
+In file included from main.cpp:10:
+ITimerManager.hpp:55:52: error: expected unqualified-id before ‘,’ token
+   55 |     std::array<std::deque<std::shared_ptr<MyTimer>>, QueueSize> m_queues;
+      |                                                    ^
+main.cpp:56:2: error: expected ‘}’ at end of input
+   56 | }
+      |  ^
+In file included from FactoryManager.hpp:5,
+                 from main.cpp:4:
+IObject.hpp:6:15: note: to match this ‘{’
+    6 | class IObject {
+      |               ^
+In file included from FactoryManager.hpp:6,
+                 from main.cpp:4:
+ObjectFactory.hpp: In member function ‘void IObject::ObjectFactory::registerObject(const string&)’:
+ObjectFactory.hpp:13:9: error: ‘m_factoryMap’ was not declared in this scope
+   13 |         m_factoryMap[objectId] = [](const std::string& objectId) -> std::shared_ptr<IObject> {
+      |         ^~~~~~~~~~~~
+ObjectFactory.hpp: In member function ‘std::shared_ptr<IObject> IObject::ObjectFactory::createObject(const string&)’:
+ObjectFactory.hpp:19:19: error: ‘m_factoryMap’ was not declared in this scope
+   19 |         auto it = m_factoryMap.find(objectId);
+      |                   ^~~~~~~~~~~~
+In file included from main.cpp:4:
+FactoryManager.hpp: In constructor ‘IObject::FactoryManager::FactoryManager(const string&)’:
+FactoryManager.hpp:11:51: error: type ‘IObject’ is not a direct base of ‘IObject::FactoryManager’
+   11 |     FactoryManager(const std::string& objectId) : IObject(objectId) {}
+      |                                                   ^~~~~~~
+In file included from main.cpp:10:
+ITimerManager.hpp: In constructor ‘IObject::ITimerManager::ITimerManager(const string&)’:
+ITimerManager.hpp:15:11: error: type ‘IObject’ is not a direct base of ‘IObject::ITimerManager’
+   15 |         : IObject(objectId), m_currentQueue(0) {}
+      |           ^~~~~~~
+ITimerManager.hpp: In member function ‘void IObject::ITimerManager::addTimer(unsigned int, std::shared_ptr<IObject::MyTimer>)’:
+ITimerManager.hpp:20:9: error: ‘m_queues’ was not declared in this scope
+   20 |         m_queues[queueIndex].push_back(std::move(timer));
+      |         ^~~~~~~~
+ITimerManager.hpp: In member function ‘void IObject::ITimerManager::tick()’:
+ITimerManager.hpp:25:23: error: ‘m_queues’ was not declared in this scope; did you mean ‘queue’?
+   25 |         auto& queue = m_queues[m_currentQueue];
+      |                       ^~~~~~~~
+      |                       queue
+ITimerManager.hpp: In member function ‘bool IObject::ITimerManager::stopTimer(const std::shared_ptr<IObject::MyTimer>&)’:
+ITimerManager.hpp:42:28: error: ‘class IObject::MyTimer’ has no member named ‘lock’
+   42 |         if (timer->m_prev->lock()) {
+      |                            ^~~~
+ITimerManager.hpp:43:28: error: ‘class IObject::MyTimer’ has no member named ‘lock’
+   43 |             timer->m_prev->lock()->m_next = timer->m_next;
+      |                            ^~~~
+ITimerManager.hpp:47:24: error: ‘class IObject::MyTimer’ has no member named ‘reset’
+   47 |         timer->m_prev->reset();
+      |                        ^~~~~
+ITimerManager.hpp:48:24: error: ‘class IObject::MyTimer’ has no member named ‘reset’
+   48 |         timer->m_next->reset();
+      |                        ^~~~~
+main.cpp: At global scope:
+main.cpp:56:2: error: expected unqualified-id at end of input
+   56 | }
+      |  ^
+make: *** [Makefile:34: main.o] Error 1
